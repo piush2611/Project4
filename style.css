@@ -1,0 +1,70 @@
+body {
+	background: #a8ff78;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+	padding: 10px 20px;
+	color: purple;
+	height: 20px;
+} 
+
+input {
+	box-sizing: border-box;
+	width: 360px;
+	margin: 0;
+	padding: 2px 5px;
+	height: 25px;
+	outline: none;
+	border: 3px solid rgba(0, 0, 0, 0);
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+li {
+	background: white;
+	padding: 5px 7px;
+	font-weight: 500;
+}
+
+span {
+	color: red;
+	text-align: center;
+	margin-right: 10px;
+	display:none;
+}
+
+.container {
+	background: pink;
+	width: 360px;
+	margin: 100px auto;
+	box-shadow: 1px 1px 1px rgba(255, 0, 0, 0.5);
+}
+
+.style {
+	color: gray;
+	text-decoration: line-through;
+}
+
+.fa-plus {
+	float: right;
+}
+
+li:nth-child(2n) {
+	background: pink;
+}
+
+input:focus {
+	border: 1px solid red;
+}
+
+li:hover span {
+	display: inline-block;
+	width: 30px;
+}
+
